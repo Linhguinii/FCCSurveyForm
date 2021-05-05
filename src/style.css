@@ -1,0 +1,15 @@
+#submit{
+  color: green;
+}
+#number{
+  width: 170px;
+}
+#survey-form{
+  text-align:center;
+}
+main{
+  margin-left: 500px;
+  margin-right: 500px;
+  background-color: #5c5cff;
+  border-style:solid;
+}

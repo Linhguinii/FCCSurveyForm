@@ -1,0 +1,65 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<!-- 
+
+Hello Camper!
+
+For now, the test suite only works in Chrome! Please read the README below in the JS Editor before beginning. Feel free to delete this message once you have read it. Good luck and Happy Coding! 
+
+- The freeCodeCamp Team 
+
+-->
+<main>
+<h1 style="text-align: center" id="title"> freeCodeCamp Survey Form</h1>
+<p style="text-align: center" id="description">This is a survey form about the opinion of the public on the current state of education.</p>
+<form id="survey-form">
+  <label id="name-label">Name</label>
+  <br>
+  <input id="name" type="text" required placeholder="Enter your name">
+  <br>
+  <label id="email-label">Email</label>
+  <br>
+  <input id="email" type="email" required placeholder="Enter your email" >
+  <br>
+  <label id="number-label">Age</label>
+  <br>
+  <input id="number" type="number" min = 0 max = 99 required placeholder="Enter your age">
+  <br>
+  <label>Profession</label>
+  <br>
+  <select id="dropdown">
+    <option>Student</option>
+    <option>Teacher</option>
+    <option>Teaching Assisstant</option>
+  </select>
+  <br>
+  <br>
+  <label>How well are you feeling during the pandemic?</label>
+  <br>
+  <input type="radio" name="wellness" value="Bad">
+  <label>Bad</label>
+  <input type="radio" name="wellness" value="Okay">
+  <label>Okay</label>
+  <input type="radio" name="wellness" value="Good">
+  <label>Good</label>
+  <input type="radio" name="wellness" value="Great">
+  <label>Great</label>
+  <br>
+  <br>
+  <label>What would you like to improve at school?</label>
+  <br>
+  <input type="checkbox" value="education">
+  <label>Education</label>
+  <input type="checkbox" value="school integrity">
+  <label>School Integrity</label>
+  <input type="checkbox" value="health precautions">
+  <label>Health Precautions</label>
+  <br>
+  <br>
+  <label>Any comments or suggestions?</label>
+  <br>
+  <textarea rows="4" cols="50"></textarea>
+  <br>
+  <button type="submit" id="submit">Submit</button>
+</form>
+</main>
